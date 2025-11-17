@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="0" name="org.apache.commons.lang3.math.FractionTest" time="0.041" errors="0" skipped="0">
+<testsuite tests="25" failures="0" name="org.apache.commons.lang3.math.FractionTest" time="0.04" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,7 +64,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testConversions" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testReducedFactory_int_int" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testReducedFactory_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testAbs" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testAdd" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testPow" time="0.001"/>
@@ -73,11 +74,11 @@
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testFactory_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testFactory_int_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testCompareTo" time="0"/>
-  <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testFactory_double" time="0.038"/>
+  <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testFactory_double" time="0.037"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testFactory_String_improper" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testConstants" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testToProperString" time="0"/>
-  <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testHashCode" time="0"/>
+  <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testHashCode" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testFactory_String_double" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testDivide" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.FractionTest" name="testEquals" time="0"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="52" failures="0" name="org.apache.commons.lang3.time.DateUtilsFragmentTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="52" failures="0" name="org.apache.commons.lang3.time.DateUtilsFragmentTest" time="0.006" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,33 +66,33 @@
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinutesOfHourWithCalendar" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHoursOfMonthWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsOfYearWithDate" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinuteFragmentInLargerUnitWithCalendar" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinuteFragmentInLargerUnitWithCalendar" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHoursOfYearWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondFragmentInLargerUnitWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testDayOfYearFragmentInLargerUnitWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsOfDayWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHoursOfDayWithDate" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinuteFragmentInLargerUnitWithDate" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinuteFragmentInLargerUnitWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfSecondWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinutesOfMonthWithDate" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsofHourWithCalendar" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsofHourWithCalendar" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testNullDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfMonthWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinutesOfDayWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testDateFragmentInLargerUnitWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfYearWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsofMinuteWithDate" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHoursOfYearWithCalendar" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHoursOfYearWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsofMinuteWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfYearWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfMonthWithDate" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfSecondWithDate" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfSecondWithDate" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testInvalidFragmentWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondFragmentInLargerUnitWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testDayOfYearFragmentInLargerUnitWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHoursOfMonthWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsOfYearWithCalendar" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsOfMonthWithDate" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsOfMonthWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsOfDayWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfDayWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinutesOfMonthWithCalendar" time="0"/>
@@ -105,8 +106,8 @@
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfHourWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondsOfMonthWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testSecondFragmentInLargerUnitWithCalendar" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinutesOfYearWithCalendar" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfMinuteWithCalender" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMinutesOfYearWithCalendar" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testMillisecondsOfMinuteWithCalender" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHourOfDayFragmentInLargerUnitWithDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testHoursOfDayWithCalendar" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsFragmentTest" name="testInvalidFragmentWithCalendar" time="0"/>

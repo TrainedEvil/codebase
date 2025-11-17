@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="48" failures="0" name="org.apache.commons.lang3.builder.CompareToBuilderTest" time="0.014" errors="3" skipped="0">
+<testsuite tests="48" failures="0" name="org.apache.commons.lang3.builder.CompareToBuilderTest" time="0.017" errors="3" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -66,7 +67,7 @@
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectBuild" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testFloatArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareExcludeFields" time="0.011">
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareExcludeFields" time="0.012">
     <error message="Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df
 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
@@ -83,7 +84,7 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectComparatorNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompare" time="0">
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompare" time="0.001">
     <error message="Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df
 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
@@ -109,7 +110,7 @@
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionCompare" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionCompare" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testShortArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiByteArray" time="0"/>
@@ -119,15 +120,15 @@
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testLongArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectEx2" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testCharArrayHiddenByObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiFloatArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiFloatArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMixedArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBoolean" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBoolean" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBooleanArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBooleanArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testIntArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testLongArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareTransients" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareTransients" time="0">
     <error message="Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df
 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)

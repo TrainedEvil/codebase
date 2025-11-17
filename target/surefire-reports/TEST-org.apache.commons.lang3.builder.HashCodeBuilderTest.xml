@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="42" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="42" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderTest" time="0.005" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,7 +66,7 @@
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testObjectArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testObjectBuild" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testCharArrayAsObject" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testCharArrayAsObject" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testFloatArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testByteArray" time="0"/>
@@ -77,19 +78,19 @@
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testLong" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testFloatArrayAsObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testIntArrayAsObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHashCodeEx1" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHashCodeEx1" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHashCodeEx2" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHashCodeEx3" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testBoolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testBooleanArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testDoubleArrayAsObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHierarchyHashCodeEx1" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHierarchyHashCodeEx1" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHierarchyHashCodeEx2" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testConstructorEx1" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testConstructorEx2" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionObjectCycle" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHierarchyHashCode" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testObjectArrayAsObject" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testReflectionHierarchyHashCode" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testObjectArrayAsObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testBooleanMultiArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testLongArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testShortArray" time="0"/>

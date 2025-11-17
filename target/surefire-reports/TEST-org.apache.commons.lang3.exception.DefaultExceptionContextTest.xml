@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="org.apache.commons.lang3.exception.DefaultExceptionContextTest" time="0" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="org.apache.commons.lang3.exception.DefaultExceptionContextTest" time="0.001" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,7 +65,7 @@
   </properties>
   <testcase classname="org.apache.commons.lang3.exception.DefaultExceptionContextTest" name="testFormattedExceptionMessageNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.DefaultExceptionContextTest" name="testAddContextValue" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.DefaultExceptionContextTest" name="testJavaSerialization" time="0"/>
+  <testcase classname="org.apache.commons.lang3.exception.DefaultExceptionContextTest" name="testJavaSerialization" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.exception.DefaultExceptionContextTest" name="testSetContextValue" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.DefaultExceptionContextTest" name="testGetContextEntries" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.DefaultExceptionContextTest" name="testGetContextLabels" time="0"/>

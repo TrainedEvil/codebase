@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="24" failures="0" name="org.apache.commons.lang3.RangeTest" time="0.005" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,18 +63,18 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.RangeTest" name="testIsWithCompare" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.RangeTest" name="testIsWithCompare" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testSerializing" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testIsOverlappedBy" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testIsStartedBy" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testIsEndedBy" time="0"/>
-  <testcase classname="org.apache.commons.lang3.RangeTest" name="testRangeOfChars" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.RangeTest" name="testRangeOfChars" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testToString" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testIsBeforeRange" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testIntersectionWith" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testEqualsObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.RangeTest" name="testBetweenWithCompare" time="0"/>
-  <testcase classname="org.apache.commons.lang3.RangeTest" name="testContainsRange" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.RangeTest" name="testBetweenWithCompare" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.RangeTest" name="testContainsRange" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testIsBefore" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testContains" time="0"/>
   <testcase classname="org.apache.commons.lang3.RangeTest" name="testIntersectionWithNull" time="0"/>

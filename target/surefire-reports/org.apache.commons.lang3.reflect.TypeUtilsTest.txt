@@ -38,7 +38,7 @@ java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVers
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.delegateBooleanAssertion(TypeUtilsTest.java:447)
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testIsAssignable(TypeUtilsTest.java:170)
 
-testTypesSatisfyVariables(org.apache.commons.lang3.reflect.TypeUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+testTypesSatisfyVariables(org.apache.commons.lang3.reflect.TypeUtilsTest)  Time elapsed: 0 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
 	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)
@@ -58,7 +58,7 @@ java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVers
 	at org.apache.commons.lang3.reflect.TypeUtils.determineTypeArguments(TypeUtils.java:715)
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testDetermineTypeVariableAssignments(TypeUtilsTest.java:540)
 
-testGetRawType(org.apache.commons.lang3.reflect.TypeUtilsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+testGetRawType(org.apache.commons.lang3.reflect.TypeUtilsTest)  Time elapsed: 0.002 sec  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
 	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)

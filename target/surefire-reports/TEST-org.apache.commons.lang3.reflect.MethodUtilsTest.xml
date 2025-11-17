@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="13" failures="0" name="org.apache.commons.lang3.reflect.MethodUtilsTest" time="0.008" errors="1" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -75,15 +76,15 @@
 	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)
 	at org.apache.commons.lang3.reflect.MemberUtils.getObjectTransformationCost(MemberUtils.java:137)
 	at org.apache.commons.lang3.reflect.MemberUtils.getTotalTransformationCost(MemberUtils.java:118)
-	at org.apache.commons.lang3.reflect.MemberUtils.compareParameterTypes(MemberUtils.java:101)
+	at org.apache.commons.lang3.reflect.MemberUtils.compareParameterTypes(MemberUtils.java:100)
 	at org.apache.commons.lang3.reflect.MethodUtils.getMatchingAccessibleMethod(MethodUtils.java:508)
 	at org.apache.commons.lang3.reflect.MethodUtilsTest.expectMatchingAccessibleMethodParameterTypes(MethodUtilsTest.java:382)
 	at org.apache.commons.lang3.reflect.MethodUtilsTest.testGetMatchingAccessibleMethod(MethodUtilsTest.java:370)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.reflect.MethodUtilsTest" name="testInvokeExactMethod" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.reflect.MethodUtilsTest" name="testInvokeExactMethod" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.reflect.MethodUtilsTest" name="testInvokeMethod" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.reflect.MethodUtilsTest" name="testInvokeExactStaticMethod" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.MethodUtilsTest" name="testGetAccessiblePublicMethodFromDescription" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.MethodUtilsTest" name="testConstructor" time="0"/>
+  <testcase classname="org.apache.commons.lang3.reflect.MethodUtilsTest" name="testConstructor" time="0.001"/>
 </testsuite>
