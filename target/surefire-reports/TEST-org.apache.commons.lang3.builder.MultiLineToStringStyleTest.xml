@@ -66,9 +66,9 @@
   <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testObjectArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testBlank" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testLongArrayArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testLongArrayArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testLongArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testPerson" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testPerson" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.MultiLineToStringStyleTest" name="testAppendSuper" time="0"/>
 </testsuite>

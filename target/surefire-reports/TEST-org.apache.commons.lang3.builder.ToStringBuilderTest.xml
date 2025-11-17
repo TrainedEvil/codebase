@@ -130,7 +130,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testObjectCycle" time="0.002">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testObjectCycle" time="0.001">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -139,7 +139,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionHierarchy" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionHierarchy" time="0.002">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -148,7 +148,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSelfInstanceTwoVarsReflectionObjectCycle" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSelfInstanceTwoVarsReflectionObjectCycle" time="0">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -175,7 +175,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testBooleanArrayArray" time="0">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testBooleanArrayArray" time="0.001">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -193,7 +193,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testInt" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testInt" time="0">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -202,7 +202,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testByteArray" time="0">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testByteArray" time="0.001">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -229,7 +229,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testBlank" time="0">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testBlank" time="0.001">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -238,7 +238,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testFloat" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testFloat" time="0">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -274,7 +274,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testChar" time="0">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testChar" time="0.001">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -283,7 +283,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testLong" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testLong" time="0">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -322,7 +322,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.test_setUpToClass_invalid(ToStringBuilderTest.java:1025)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="test_setUpToClass_invalid" time="0">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="test_setUpToClass_invalid" time="0.001">
     <failure message="Expected null, actual: {true=null, 5=null} expected null, but was:&lt;{true=null, 5=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null, 5=null} expected null, but was:&lt;{true=null, 5=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -331,7 +331,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testBoolean" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testBoolean" time="0">
     <failure message="Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:&lt;{true=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -379,10 +379,10 @@
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionyteArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionDoubleArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionIntArrayArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSimpleReflectionStatics" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSimpleReflectionStatics" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionStatics" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionLongArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionhortArrayArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionhortArrayArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testConstructorEx1" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testConstructorEx2" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testConstructorEx3" time="0"/>
@@ -400,14 +400,14 @@
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionArrayAndObjectCycle" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSetDefaultEx" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionCharArrayArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testIntArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testIntArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testDouble" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testByteArrayArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testByteArrayArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionShortArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testCharArrayArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSelfInstanceVarReflectionObjectCycle" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testAppendSuper" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testAppendSuper" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testGetSetDefault" time="0"/>
@@ -436,7 +436,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testDoubleArray" time="0">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testDoubleArray" time="0.002">
     <failure message="Expected null, actual: {A=null} expected null, but was:&lt;{A=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {A=null} expected null, but was:&lt;{A=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)
@@ -445,7 +445,7 @@
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionFloatArrayArray" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionFloatArrayArray" time="0">
     <failure message="Expected null, actual: {A=null} expected null, but was:&lt;{A=null}&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected null, actual: {A=null} expected null, but was:&lt;{A=null}&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotNull(Assert.java:664)

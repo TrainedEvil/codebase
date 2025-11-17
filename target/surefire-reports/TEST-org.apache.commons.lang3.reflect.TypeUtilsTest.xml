@@ -63,7 +63,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testGetTypeArguments" time="0.003">
+  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testGetTypeArguments" time="0.002">
     <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
 	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
 	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)
@@ -88,7 +88,7 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testLang820" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testIsAssignable" time="0.011">
+  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testIsAssignable" time="0.012">
     <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
 	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
 	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)
@@ -118,7 +118,7 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testIsArrayTypeClasses" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testDetermineTypeVariableAssignments" time="0.001">
+  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testDetermineTypeVariableAssignments" time="0">
     <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
 	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
 	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)
@@ -127,7 +127,7 @@
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testDetermineTypeVariableAssignments(TypeUtilsTest.java:540)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testGetRawType" time="0.001">
+  <testcase classname="org.apache.commons.lang3.reflect.TypeUtilsTest" name="testGetRawType" time="0.002">
     <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
 	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
 	at org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)

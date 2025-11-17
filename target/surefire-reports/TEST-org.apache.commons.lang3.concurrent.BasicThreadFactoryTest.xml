@@ -65,14 +65,14 @@
   </properties>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoDaemonFlag" time="0.015"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadDaemonTrue" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoPriority" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoExHandler" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadDaemonFalse" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNamingPattern" time="0.006"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoPriority" time="0"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoExHandler" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadDaemonFalse" time="0"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNamingPattern" time="0.007"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuildWrappedFactoryNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuilderReset" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadExHandler" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadPriority" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadExHandler" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadPriority" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoNamingPattern" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuildUncaughtExceptionHandlerNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuildNamingPatternNull" time="0"/>

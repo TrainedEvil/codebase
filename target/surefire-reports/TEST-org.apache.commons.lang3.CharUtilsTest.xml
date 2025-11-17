@@ -63,7 +63,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAscii_char" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAscii_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToString_Character" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiAlphanumeric_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToChar_Character" time="0"/>
@@ -82,7 +82,7 @@
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToChar_Character_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToCharacterObject_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToUnicodeEscaped_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToCharacterObject_char" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToCharacterObject_char" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToIntValue_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiAlphaLower_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testConstructor" time="0"/>

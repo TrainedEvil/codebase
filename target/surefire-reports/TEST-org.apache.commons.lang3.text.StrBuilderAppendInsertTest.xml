@@ -69,13 +69,13 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_PrimitiveNumber" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_Boolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_Boolean" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StrBuilder_int_int" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StrBuilder_int_int" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_CharArray_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendFixedWidthPadLeft" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_String_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendFixedWidthPadLeft_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendAll_Collection" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuilder" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuilder" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendNewLine" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_CharArray_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuffer" time="0"/>
@@ -94,7 +94,7 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendAll_Array" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuilder_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuffer" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuffer" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendWithSeparatorsWithNullText" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_String_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuffer_int_int" time="0"/>
@@ -106,9 +106,9 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_String_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_PrimitiveNumber" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuilder" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testInsert" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testInsert" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendFixedWidthPadRight" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StrBuilder_int_int" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StrBuilder_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_CharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_FormattedString" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_CharArray" time="0"/>

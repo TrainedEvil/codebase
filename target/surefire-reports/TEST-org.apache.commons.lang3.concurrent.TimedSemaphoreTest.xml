@@ -64,18 +64,18 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testPassAfterShutdown" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testAcquireMultipleThreads" time="0.005"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testAcquireMultipleThreads" time="0.006"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testInitInvalidPeriod" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testAcquireMultiplePeriods" time="0.151"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testGetAverageCallsPerPeriod" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testInit" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testInitDefaultService" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testShutdownOwnExecutor" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testShutdownSharedExecutorTask" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testShutdownMultipleTimes" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testShutdownSharedExecutorTask" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testShutdownMultipleTimes" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testAcquireNoLimit" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testShutdownSharedExecutorNoTask" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testAcquireLimit" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testStartTimer" time="1.002"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testAcquireLimit" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testStartTimer" time="1.001"/>
   <testcase classname="org.apache.commons.lang3.concurrent.TimedSemaphoreTest" name="testGetAvailablePermits" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" time="0.004" errors="2" skipped="0">
+<testsuite tests="4" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" time="0.003" errors="2" skipped="0">
   <properties>
     <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,7 +63,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" name="testIntegerWithTransients" time="0.001">
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" name="testIntegerWithTransients" time="0">
     <error message="Unable to make field static final byte[] java.lang.Integer.digits accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field static final byte[] java.lang.Integer.digits accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @4b9e13df
 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)

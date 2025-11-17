@@ -70,8 +70,8 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.CharEncodingTest" name="testSupported" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharEncodingTest" name="testNotSupported" time="0.008"/>
-  <testcase classname="org.apache.commons.lang3.CharEncodingTest" name="testWorksOnJava1_1_8" time="0">
+  <testcase classname="org.apache.commons.lang3.CharEncodingTest" name="testNotSupported" time="0.007"/>
+  <testcase classname="org.apache.commons.lang3.CharEncodingTest" name="testWorksOnJava1_1_8" time="0.001">
     <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
 	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
 	at org.apache.commons.lang3.CharEncodingTest.testWorksOnJava1_1_8(CharEncodingTest.java:85)

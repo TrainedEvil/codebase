@@ -66,8 +66,8 @@
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testContainsNullArg" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testConstructorAccessors_isIn_Reversed" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testConstructorAccessors_isNot" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testSerialization" time="0.007"/>
-  <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testClass" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testSerialization" time="0.008"/>
+  <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testClass" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testConstructorAccessors_isNotIn_Same" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testConstructorAccessors_is" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testEquals_Object" time="0"/>
@@ -76,7 +76,7 @@
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testHashCode" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testContains_Charrange" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testConstructorAccessors_isIn_Same" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testIterator" time="0.009"/>
+  <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testIterator" time="0.007"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testConstructorAccessors_isNotIn_Normal" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharRangeTest" name="testConstructorAccessors_isNotIn_Reversed" time="0"/>
 </testsuite>
