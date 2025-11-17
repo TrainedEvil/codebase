@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="org.apache.commons.lang3.LocaleUtilsTest" time="0.036" errors="1" skipped="0">
+<testsuite tests="14" failures="0" name="org.apache.commons.lang3.LocaleUtilsTest" time="0.039" errors="1" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,10 +63,10 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testAvailableLocaleSet" time="0.031"/>
+  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testAvailableLocaleSet" time="0.035"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testIsAvailableLocale" time="0"/>
-  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testAvailableLocaleList" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testLang328" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testAvailableLocaleList" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testLang328" time="0"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testLang865" time="0"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testCountriesByLanguage" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testParseAllLocales" time="0"/>
@@ -80,5 +81,5 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testLocaleLookupList_Locale" time="0"/>
-  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testConstructor" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testConstructor" time="0"/>
 </testsuite>

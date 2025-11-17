@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" time="0.031" errors="0" skipped="0">
+<testsuite tests="15" failures="0" name="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" time="0.024" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,16 +63,16 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoDaemonFlag" time="0.017"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoDaemonFlag" time="0.015"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadDaemonTrue" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoPriority" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoExHandler" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadDaemonFalse" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNamingPattern" time="0.011"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoExHandler" time="0"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadDaemonFalse" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNamingPattern" time="0.006"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuildWrappedFactoryNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuilderReset" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuilderReset" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadExHandler" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadPriority" time="0"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadPriority" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testNewThreadNoNamingPattern" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuildUncaughtExceptionHandlerNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BasicThreadFactoryTest" name="testBuildNamingPatternNull" time="0"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="42" failures="0" name="org.apache.commons.lang3.ConversionTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="42" failures="0" name="org.apache.commons.lang3.ConversionTest" time="0.006" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,8 +63,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryToHexDigit" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testIntToBinary" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryToHexDigit" time="0.003"/>
+  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testIntToBinary" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testShortArrayToInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryToHexDigit_2args" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryBeMsb0ToHexDigit_2args" time="0"/>
@@ -74,28 +75,28 @@
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryToHexDigitMsb0_bits" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testHexToByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testHexToLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testShortArrayToLong" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testShortArrayToLong" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testByteArrayToLong" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testByteArrayToUuid" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testLongToShortArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testLongToShortArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testHexDigitMsb0ToBinary" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testUuidToByteArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testIntToShortArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testIntArrayToLong" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testHexDigitMsb0ToInt" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testShortToByteArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testShortToByteArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testHexDigitToBinary" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testHexToInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testIntToByteArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testIntToHexDigitMsb0" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testLongToByteArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testLongToBinary" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testLongToBinary" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testHexDigitToInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testLongToHex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testShortToHex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testLongToIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testByteToBinary" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryToByte" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryToByte" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testBinaryToLong" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testIntToHex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ConversionTest" name="testByteArrayToInt" time="0"/>

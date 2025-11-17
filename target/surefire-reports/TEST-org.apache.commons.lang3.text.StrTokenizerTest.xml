@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="55" failures="0" name="org.apache.commons.lang3.text.StrTokenizerTest" time="0.004" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -79,34 +80,34 @@
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted1" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted2" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted3" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted4" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted4" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted5" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted6" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted7" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCloneNotSupportedException" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCloneNotSupportedException" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testReset_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testTSVEmpty" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testConstructor_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCloneNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test1" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test1" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test2" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test3" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test4" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test5" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test6" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test6" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test7" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test8" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testConstructor_String_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testTokenizeSubclassInputChange" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCSVEmpty" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testConstructor_charArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testConstructor_charArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testConstructor_charArray_char_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCSVSimpleNeedsTrim" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed1" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed2" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed3" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed4" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuotedTrimmed1" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuotedTrimmed1" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic1" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic2" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic3" time="0"/>
@@ -115,6 +116,6 @@
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testGetContent" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCloneReset" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicTrimmed1" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicTrimmed2" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicTrimmed2" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testChaining" time="0"/>
 </testsuite>

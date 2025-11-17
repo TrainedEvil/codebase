@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="org.apache.commons.lang3.time.DurationFormatUtilsTest" time="0.212" errors="0" skipped="0">
+<testsuite tests="15" failures="0" name="org.apache.commons.lang3.time.DurationFormatUtilsTest" time="0.225" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,10 +63,10 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testDurationsByBruteForce" time="0.066"/>
+  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testDurationsByBruteForce" time="0.069"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatPeriod" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testLANG815" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testLowDurations" time="0.144"/>
+  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testLowDurations" time="0.154"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testLexx" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatDurationHMS" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatDurationISO" time="0"/>
@@ -73,8 +74,8 @@
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testEdgeDurations" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatDurationPluralWords" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testBugzilla38401" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatDuration" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatDurationWords" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatDuration" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testFormatDurationWords" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testJiraLang281" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DurationFormatUtilsTest" name="testConstructor" time="0"/>
 </testsuite>

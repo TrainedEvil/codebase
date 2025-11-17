@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="51" failures="0" name="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="51" failures="0" name="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" time="0.003" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -74,7 +75,7 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_String_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendFixedWidthPadLeft_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendAll_Collection" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuilder" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuilder" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendNewLine" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_CharArray_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuffer" time="0"/>
@@ -87,7 +88,7 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_Object" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StrBuilder" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_String" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_String" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_char_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_String_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendAll_Array" time="0"/>
@@ -104,10 +105,10 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_String_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_PrimitiveNumber" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuilder" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuilder" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testInsert" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendFixedWidthPadRight" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StrBuilder_int_int" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StrBuilder_int_int" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_CharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_FormattedString" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_CharArray" time="0"/>

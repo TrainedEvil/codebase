@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="13" failures="0" name="org.apache.commons.lang3.ArrayUtilsAddTest" time="0.004" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,17 +63,17 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testJira567" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayInt" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testJira567" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testLANG571" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayToObjectArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectAtIndex" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayFloat" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectAtIndex" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayFloat" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayShort" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayBoolean" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayDouble" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayBoolean" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayObject" time="0"/>
 </testsuite>

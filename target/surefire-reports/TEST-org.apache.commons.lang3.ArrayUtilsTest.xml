@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="146" failures="0" name="org.apache.commons.lang3.ArrayUtilsTest" time="0.022" errors="0" skipped="0">
+<testsuite tests="146" failures="0" name="org.apache.commons.lang3.ArrayUtilsTest" time="0.018" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
@@ -46,7 +47,7 @@
     <property name="java.class.path" value="C:\Users\brian\Desktop\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="25"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,17 +64,17 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyCharObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_double_double" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_double_double" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyDoubleObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayBoolean" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyBoolean" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyBoolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyInt" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_float" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_float" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_short" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyDouble" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsDoubleTolerance" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_byte_byte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_short_short" time="0"/>
@@ -87,10 +88,10 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyString" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyShortObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIsEmptyPrimitives" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIsEmptyPrimitives" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testClone" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSameLengthInt" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToMap" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToMap" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOf" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testReverseDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsByte" time="0"/>
@@ -101,7 +102,7 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToString" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToString" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testCloneDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfDoubleTolerance" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfByteWithStartIndex" time="0"/>
@@ -109,28 +110,28 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayFloat" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayShort" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfBoolean" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayInt" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayInt" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfIntWithStartIndex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testArrayCreationWithDifferentTypes" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfDoubleWithStartIndexTolerance" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfDoubleWithStartIndexTolerance" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testArrayCreationWithGeneralReturnType" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfDoubleWithStartIndexTolerance" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToObject_double" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayByte" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayLong" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayLong" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrChar" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIsNotEmptyPrimitives" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIsNotEmptyPrimitives" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToObject_byte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToObject_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToObject_long" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyFloat" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_float_float" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyShort" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfLongWithStartIndex" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfLongWithStartIndex" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsFloat" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsShort" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsShort" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIsNotEmptyObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToObject_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsBoolean" time="0"/>
@@ -141,7 +142,7 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testCloneChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testCloneLong" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfShort" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIsEquals" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIsEquals" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testEmptyArrayCreation" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfCharWithStartIndex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfByteWithStartIndex" time="0"/>
@@ -149,7 +150,7 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyFloatObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testCloneBoolean" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndirectArrayCreation" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndirectArrayCreation" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToObject_boolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSameLengthDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_long_long" time="0"/>
@@ -157,7 +158,7 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyLongObject" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyLongObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testReverse" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfDoubleTolerance" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_intNull" time="0"/>
@@ -174,8 +175,8 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfBooleanWithStartIndex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfFloatWithStartIndex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSameLengthFloat" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayObject" time="0.008"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSameLengthShort" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSubarrayObject" time="0.007"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testSameLengthShort" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testLastIndexOfCharWithStartIndex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyIntObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToObject_float" time="0"/>
@@ -205,7 +206,7 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testReverseBoolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testToPrimitive_boolean_boolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testNullToEmptyBooleanObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testConstructor" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testConstructor" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testIndexOfWithStartIndex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsTest" name="testContainsDouble" time="0"/>
 </testsuite>
